@@ -46,7 +46,7 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 
 1. Clone the repository or download the **`encrypt.py`** and **`decrypt.py`** files.
     
-    ```bash
+    ```
     git clone https://github.com/zVeqsxy/Basic-File-Encryption.git 
     ```
     
@@ -63,7 +63,7 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 
 1. Run the script using the following command:
     
-    ```powershell
+    ```
     python encrypt.py 
     ```
     
@@ -77,7 +77,7 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 
 1. Run the script using the following command:
     
-    ```powershell
+    ```
     python decrypt.py
     ```
     
