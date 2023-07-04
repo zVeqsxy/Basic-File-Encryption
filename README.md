@@ -36,7 +36,7 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 
 ## **Features**
 
-- Encrypt individual files or all files in a directory.
+- Encrypt individual files or all files in a directory using `Fernet` library.
 - Decrypt encrypted files back to their original state.
 - Password-based authentication using `bcrypt` library for extra security.
 - Automatic exclusion of sensitive files from encryption and decryption.
