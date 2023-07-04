@@ -44,18 +44,24 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 
 ## Installation
 
-1. Clone the repository or download the **`encrypt.py`** and **`decrypt.py`** files.
+1. Clone or download the repository.
     
     ```
     git clone https://github.com/zVeqsxy/Basic-File-Encryption.git 
     ```
     
-2. Install the required dependencies by running the following command:
+2. Change your directory to **`Basic-File-Encryption`**.
+    
+    ```
+    cd Basic-File-Encryption
+    ```
+    
+3. Install the required dependencies by running the following command:
     
     ```
     pip install -r requirements.txt
     ```
-
+    
 
 ## Usage
 
