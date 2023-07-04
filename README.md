@@ -26,3 +26,64 @@ For a ransomware to achieve broad success, it typically needs to satisfy three k
 **Condition 2**: The ability to decrypt the compromised device remains solely with the attacker who initiated the ransomware attack.
 
 **Condition 3**: Decrypting one device does not provide any useful information for other infected devices. As a result, the decryption key is not shared among them.
+
+# Project tasks
+
+This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`**, that allow you to encrypt and decrypt files using the Fernet encryption algorithm provided by the **`cryptography`** library. The encryption key is securely generated and stored in a separate file.
+
+## **Features**
+
+- Encrypt individual files or all files in a directory.
+- Decrypt encrypted files back to their original state.
+- Password-based authentication using `bcrypt` library for extra security.
+- Automatic exclusion of sensitive files from encryption and decryption.
+
+## Installation
+
+1. Clone the repository or download the **`encrypt.py`** and **`decrypt.py`** files.
+    
+    ```bash
+    git clone https://github.com/zVeqsxy/Basic-File-Encryption.git 
+    ```
+    
+2. Install the required dependencies by running the following command:
+    
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+
+## Usage
+
+### Encryption
+
+1. Run the script using the following command:
+    
+    ```powershell
+    python encrypt.py 
+    ```
+    
+2. You will be prompted to enter the path of the file or directory you want to encrypt.
+3. Initialize the password for authentication. The password will be securely hashed and stored in a file named `**pw.key**` for later use.
+4. The script will generate an encryption key and store it in a file named **`thekey.key`**.
+5. The specified file(s) will be encrypted using the encryption key.
+6. When a file or directory is encrypted, a success message will be displayed with the corresponding name.
+
+### **Decryption**
+
+1. Run the script using the following command:
+    
+    ```powershell
+    python decrypt.py
+    ```
+    
+2. You will be prompted to enter the path of the file or directory you want to decrypt.
+3. The script compares the provided password and the hashed password from the **`pw.key`** file.
+4. After the successful Authentication, the specified file(s) will be decrypted using the encryption key from the **`thekey.key`** file after the comparison was successful.
+5. When a file or directory is decrypted, a success message will be displayed with the corresponding name.
+
+## Notes
+
+- The Files in the directory **`Basic-File-Encryption`** are automatically excluded from encryption and decryption operations to prevent accidental modification.
+- If the specified file or directory does not exist or the path is invalid, an error message will be displayed.
+- If the provided password during decryption does not match the stored password hash, an error message will be displayed.
