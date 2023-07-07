@@ -74,14 +74,12 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 4. After the successful Authentication, the specified file(s) will be decrypted using the encryption key from the **`thekey.key`** file after the comparison was successful.
 5. When a file or directory is decrypted, a success message will be displayed with the corresponding name.
 
--------------
 
 ## Notes
 
 - The Files in the directory **`Basic-File-Encryption`** are automatically excluded from encryption and decryption operations to prevent accidental modification.
 - If the specified file or directory does not exist or the path is invalid, an error message will be displayed.
 - If the provided password during decryption does not match the stored password hash, an error message will be displayed.
-
 
 
 
