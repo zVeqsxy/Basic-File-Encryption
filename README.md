@@ -28,19 +28,19 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 
 1. Clone or download the repository.
     
-    ```
+    ```bash
     git clone https://github.com/zVeqsxy/Basic-File-Encryption.git 
     ```
     
 2. Change your directory to **`Basic-File-Encryption`**.
     
-    ```
+    ```bash
     cd Basic-File-Encryption
     ```
     
 3. Install the required dependencies by running the following command:
     
-    ```
+    ```bash
     pip install -r requirements.txt
     ```
     
@@ -51,7 +51,7 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 
 1. Run the script using the following command:
     
-    ```
+    ```bash
     python encrypt.py 
     ```
     
@@ -65,7 +65,7 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 
 1. Run the script using the following command:
     
-    ```
+    ```bash
     python decrypt.py
     ```
     
@@ -81,6 +81,8 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 - The Files in the directory **`Basic-File-Encryption`** are automatically excluded from encryption and decryption operations to prevent accidental modification.
 - If the specified file or directory does not exist or the path is invalid, an error message will be displayed.
 - If the provided password during decryption does not match the stored password hash, an error message will be displayed.
+
+
 
 
 ## Contributing
