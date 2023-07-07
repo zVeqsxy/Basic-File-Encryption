@@ -81,3 +81,16 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 - The Files in the directory **`Basic-File-Encryption`** are automatically excluded from encryption and decryption operations to prevent accidental modification.
 - If the specified file or directory does not exist or the path is invalid, an error message will be displayed.
 - If the provided password during decryption does not match the stored password hash, an error message will be displayed.
+
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). 
+
+## Contact
+
+For any inquiries or questions, please contact [Mohamad Kanoua](mailto:Reyhamudi609@gmail.com).
