@@ -25,7 +25,7 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
     git clone https://github.com/zVeqsxy/Basic-File-Encryption.git 
     ```
     
-2. Change your directory to **`Basic-File-Encryption`**.
+2. Navigate to the **`Basic-File-Encryption`** directory.
     
     ``` bash
     cd Basic-File-Encryption
@@ -80,7 +80,6 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 > **⚠️DISCLAIMER**:
 
 *This program is intended solely for educational purposes and knowledge sharing. It is strictly prohibited to utilize this code or any associated techniques to cause harm, engage in illegal activities, or compromise the security and privacy of individuals or systems. The developer is not responsible for any misuse, damage, or loss caused by the usage of this project*
-
 
 
 ## Contributing
