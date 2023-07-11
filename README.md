@@ -3,20 +3,13 @@
 The following code represents a File-Encryption program for educational purposes only. 
 It is inspired by a tutorial I watched and serves the purpose of enhancing understanding about encryption concepts.
 
--------------
-
-> **⚠️DISCLAIMER**:
-
-*This program is intended solely for educational purposes and knowledge sharing. It is strictly prohibited to utilize this code or any associated techniques to cause harm, engage in illegal activities, or compromise the security and privacy of individuals or systems.*
-
--------------
 
 # Project tasks
 
 This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`**, that allow you to encrypt and decrypt files using the Fernet encryption algorithm provided by the **`cryptography`** library. The encryption key is securely generated and stored in a separate file.
 
 
-## **Features**
+## Features
 
 - Encrypt individual files or all files in a directory using `cryptography` library.
 - Decrypt encrypted files back to their original state.
@@ -28,19 +21,19 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 
 1. Clone or download the repository.
     
-    ```bash
+    ``` bash
     git clone https://github.com/zVeqsxy/Basic-File-Encryption.git 
     ```
     
 2. Change your directory to **`Basic-File-Encryption`**.
     
-    ```bash
+    ``` bash
     cd Basic-File-Encryption
     ```
     
 3. Install the required dependencies by running the following command:
     
-    ```bash
+    ``` bash
     pip install -r requirements.txt
     ```
     
@@ -61,7 +54,7 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 5. The specified file(s) will be encrypted using the encryption key.
 6. When a file or directory is encrypted, a success message will be displayed with the corresponding name.
 
-### **Decryption**
+### Decryption
 
 1. Run the script using the following command:
     
@@ -74,14 +67,19 @@ This project consists of two Python scripts, **`encrypt.py`** and **`decrypt.py`
 4. After the successful Authentication, the specified file(s) will be decrypted using the encryption key from the **`thekey.key`** file after the comparison was successful.
 5. When a file or directory is decrypted, a success message will be displayed with the corresponding name.
 
--------------
 
 ## Notes
 
 - The Files in the directory **`Basic-File-Encryption`** are automatically excluded from encryption and decryption operations to prevent accidental modification.
 - If the specified file or directory does not exist or the path is invalid, an error message will be displayed.
-- If the provided password during decryption does not match the stored password hash, an error message will be displayed.
+- If the provided password during decryption does not match the stored password hash, an error message will be displayed.<br><br>
 
+-------------------
+
+
+> **⚠️DISCLAIMER**:
+
+*This program is intended solely for educational purposes and knowledge sharing. It is strictly prohibited to utilize this code or any associated techniques to cause harm, engage in illegal activities, or compromise the security and privacy of individuals or systems. The developer is not responsible for any misuse, damage, or loss caused by the usage of this project*
 
 
 
